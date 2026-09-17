@@ -11,10 +11,10 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "orders",
+					"value": "orders.parquet",
 					"type": "Expression"
 				},
-				"folderPath": "converted_files",
+				"folderPath": "converted_files/orders",
 				"fileSystem": "bronze"
 			},
 			"compressionCodec": "snappy"
