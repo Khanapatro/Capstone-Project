@@ -1,0 +1,22 @@
+{
+	"name": "github_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Khanapatro/Capstone-Project/refs/heads/main/Data_uploading/products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

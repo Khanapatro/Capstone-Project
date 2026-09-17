@@ -1,0 +1,56 @@
+{
+	"name": "Parquet_github",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "products.parquet",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat('converted_files/', 'products')",
+					"type": "Expression"
+				},
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "customer_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "signup_date",
+				"type": "UTF8"
+			},
+			{
+				"name": "region",
+				"type": "UTF8"
+			},
+			{
+				"name": "segment",
+				"type": "UTF8"
+			},
+			{
+				"name": "lifetime_orders",
+				"type": "UTF8"
+			},
+			{
+				"name": "lifetime_spend",
+				"type": "UTF8"
+			},
+			{
+				"name": "email_domain",
+				"type": "UTF8"
+			}
+		]
+	}
+}
