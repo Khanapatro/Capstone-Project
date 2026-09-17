@@ -35,10 +35,6 @@
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/"
 		},
-		"RestServiceLS_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://raw.githubusercontent.com"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -86,9 +82,6 @@
 					},
 					"HttpServer_LS_properties_typeProperties_url": {
 						"value": "[parameters('HttpServer_LS_properties_typeProperties_url')]"
-					},
-					"RestServiceLS_properties_typeProperties_url": {
-						"value": "[parameters('RestServiceLS_properties_typeProperties_url')]"
 					}
 				}
 			},
