@@ -31,6 +31,14 @@
 			"type": "string",
 			"defaultValue": "capstoneadmin"
 		},
+		"HttpServer_LS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/"
+		},
+		"RestServiceLS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -75,6 +83,12 @@
 					},
 					"AzureSqlDatabaseLS_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabaseLS_properties_typeProperties_userName')]"
+					},
+					"HttpServer_LS_properties_typeProperties_url": {
+						"value": "[parameters('HttpServer_LS_properties_typeProperties_url')]"
+					},
+					"RestServiceLS_properties_typeProperties_url": {
+						"value": "[parameters('RestServiceLS_properties_typeProperties_url')]"
 					}
 				}
 			},

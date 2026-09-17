@@ -23,6 +23,12 @@
 		"AzureSqlDatabaseLS_properties_typeProperties_userName": {
 			"value": "capstoneadmin"
 		},
+		"HttpServer_LS_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"RestServiceLS_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
 		"containerUri": {
 			"value": ""
 		},
