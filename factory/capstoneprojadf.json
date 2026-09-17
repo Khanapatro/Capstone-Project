@@ -1,0 +1,15 @@
+{
+	"name": "capstoneprojadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f63f0ec-aceb-4ee6-ba46-abc090c65158",
+		"tenantId": "505ea363-4012-4458-bff4-c1ff600f9bd1"
+	}
+}
